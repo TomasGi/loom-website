@@ -1,0 +1,33 @@
+.content-testimontials {
+    text-align: center;
+    margin: 20px 0 0;
+    width: 100%;
+    color: #dddddd;
+    background: url(../img/testimontial-background-image.png) no-repeat center center;
+    .slider-element {
+    }
+    h2 {
+        margin: 80px 0 0;
+    }
+    p {
+        font-size: 20px;
+    }
+    h5 {
+        font-weight: 800;
+        padding-bottom: 100px;
+    }
+    .slider-review {
+        position: relative;
+        .nav-slider2 {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 1;
+        }
+        #myslider2 {
+            margin: 0 auto;
+            width: 80%;
+            height: 195px;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.content-footer{
+    background: #373737;
+    color: #cacaca;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 30px;
+    ul{   
+        padding: 0;
+        list-style-type: none;
+        li{ 
+            padding: 0;    
+            text-align: left;     
+            width: 230px;
+            display: inline-table;
+            margin-right: 70px;
+            img{
+                margin-right: 10px;
+            }
+            &:last-child{
+                margin: 0;
+            }
+            p{
+                margin-bottom: 5px;
+            }
+            span{
+                font-size: 12px;
+            }
+            h3{
+                
+            }
+        }
+    }
+    footer{
+        margin-top: 30px;
+        background: #333333;
+        text-align: left;
+        padding: 30px 0;
+    }
+}
